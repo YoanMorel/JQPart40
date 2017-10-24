@@ -8,19 +8,17 @@ Bonus : Ajouter un compteur de victoires et de défaites et afficher le pourcent
 
 ## Exercice 2 :
 
-Demander à l'aide d'un formulaire le salaire d'une personne, son genre et son nombre d'enfants.
+Demander à l'aide d'un formulaire les 5 dernières notes d'un élève.
 
-Calculer le salaire en décomptant les frais suivants:
+Calculer sa moyenne et déterminer son appréciation.
 
-- Charges : 18 %;
-- Assurance : 7%;
-- Cotisations : 5%;
+- Si la moyenne de l'élève est supérieure ou égale à 0 et inférieure à 10, il aura comme appréciation : "En dessous de la moyenne".
+- Si la moyenne de l'élève est supérieure ou égale à 10 et inférieure à 13, il aura comme appréciation : "Moyen".
+- Si la moyenne de l'élève est supérieure ou égale à 13 et inférieure à 16, il aura comme appréciation : "Bien".
+- Si la moyenne de l'élève est supérieure ou égale à 16 et inférieure à 20, il aura comme appréciation : "Très bien".
+- Si la moyenne de l'élève est égale à 20, il aura comme appréciation : "Excellent".
 
-Il est possible de recevoir des réductions sur les frais totaux sous certaines conditions :
-
-- Si l'employé est une femme, elle reçoit 2% de réduction.
-- Si l'employé a 3 enfants à charge, il reçoit 1% de réduction.
-- Si l'employé a 4 enfants à charge, il reçoit 2% de réduction.
+Afficher la moyenne et l'appréciation de l'élève.
 
 ## Exercice 3 :
 
