@@ -16,4 +16,14 @@ $(function() {
       }
     });
   });
-});
+
+//   $('input').focusout(function() {
+//     if (!$(this).val()) {
+//       $(this).css({border: '2px solid red'}).val('Non renseigné !');
+//     } else if ($(this).val() && !regexTab[$(this).attr('id')].test($(this).val())) {
+//       $(this).css({border: '2px solid red'}).val('Format de ' + $(this).attr('name') + ' incorrect');
+//     } else {
+//       $(this).css({border: '2px solid green'});
+//     }
+//   });
+// });
