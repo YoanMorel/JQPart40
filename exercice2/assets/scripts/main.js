@@ -1,21 +1,20 @@
 $(function() {
-  var grade1 = $('#grade1');
-  var grade2 = $('#grade2');
-  var grade3 = $('#grade3');
-  var grade4 = $('#grade4');
-  var grade5 = $('#grade5');
+  var grades = $('input');
   var msng = $('span');
 
   $('button').click(function() {
 
-    $('input').each(function() {
-      if (isNaN(parseFloat($(this).val()))) {
+    grades.each(function() {
+      if (isNaN(Number($(this).val()))) {
         alert('Mets que des chiffres fils d\'input !');
         $(this).val('');
       }
     });
 
-    var sumGrade = parseFloat(grade1.val()) + parseFloat(grade2.val()) + parseFloat(grade3.val()) + parseFloat(grade4.val()) + parseFloat(grade5.val());
+    var sumGrade = 0;
+    gardes.each(function() {
+      sumGrade += Number($(this).val());
+    });
     var avrg = sumGrade / 5;
 
     if (avrg >= 0 && avrg < 10) {
